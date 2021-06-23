@@ -63,7 +63,7 @@ export const ShortenBtn = styled.button`
   border: none;
   border-radius: 0.5em;
   width: 20%;
-  cursor: ${props => (props.loading ? "not-allowed" : "pointer")};
+  cursor: ${props => (props.isLoading ? "not-allowed" : "pointer")};
 
   &:hover {
     background-color: #9be3e2;

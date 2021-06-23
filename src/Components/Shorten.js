@@ -74,7 +74,7 @@ function Shorten() {
             setLoading(true);
             shortenUrl(url);
           }}
-          loading={loading}
+          isLoading={loading}
           disabled={loading}
         >
           Shorten It
