@@ -114,7 +114,7 @@ export const CenterLine = styled.span`
   z-index: 10;
   @media (max-width: 375px) {
     width: 0.5em;
-    height: 60em;
+    height: 55em;
     left: 49%;
     transform: translateY(-20em);
   }

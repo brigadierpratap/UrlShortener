@@ -53,6 +53,7 @@ export const StartedButton = styled.button`
   outline: none;
   border: none;
   margin-bottom: 5em;
+  cursor: pointer;
   &:hover {
     opacity: 0.5;
   }

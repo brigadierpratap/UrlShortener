@@ -6,6 +6,7 @@ export const Nav = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  user-select: none;
   @media (max-width: 375px) {
     padding: 1em 1em;
     max-width: 100%;
@@ -81,6 +82,19 @@ export const LinkContLeft = styled.div`
     flex-direction: column;
     margin: auto;
     width: 100%;
+    position: relative;
+    &::after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: #bfbfbf;
+      position: absolute;
+      left: 0;
+      bottom: -20px;
+      display: flex;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
   }
 `;
 export const LinkContRight = styled.div`
